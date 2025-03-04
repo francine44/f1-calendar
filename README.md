@@ -97,3 +97,38 @@ document.addEventListener('DOMContentLoaded', () => {
         calendarBody.appendChild(row);
     });
 });
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+}
+
+table {
+    width: 80%;
+    margin: 2rem auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: center;
+}
+
+th {
+    background-color: #e70d0d;
+    color: white;
+}
+
+img {
+    width: 50px;
+    height: auto;
+}
